@@ -1,10 +1,9 @@
 async function fetchData(num_passengers, distance){
     const url = "https://api.climatiq.io/estimate";
-    const api_key = "16ZW4BTV6CMS08KFCRNHRKQXYCRG";
+    const api_key = "";
 
     const auth_headers ={
-        "Authorization": "Bearer 16ZW4BTV6CMS08KFCRNHRKQXYCRG",
-        // "Authorization": `Bearer ${api_key}`,
+        "Authorization": `Bearer ${api_key}`,
     }
 
     const params = {
